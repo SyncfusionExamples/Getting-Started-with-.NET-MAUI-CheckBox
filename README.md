@@ -10,8 +10,8 @@ This section provides a quick overview for working with the SfCheckBox for .NET 
 
 To use this control inside an application, you must register the handler for Syncfusion® core.
 
-```C#
-
+**C#**
+```
 using Microsoft.Extensions.Logging;
 using Syncfusion.Maui.Core.Hosting;
 
@@ -46,7 +46,8 @@ namespace CheckBoxGettingStarted
 1. Import the control namespace `Syncfusion.Maui.Buttons` in XAML or C# code.
 2. Initialize [SfCheckBox](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Buttons.SfCheckBox.html) control.
 
-```xml
+**XAML**
+```
 <ContentPage
     . . .    
     xmlns:buttons="clr-namespace:Syncfusion.Maui.Buttons;assembly=Syncfusion.Maui.Buttons">
@@ -54,10 +55,8 @@ namespace CheckBoxGettingStarted
 </ContentPage>
 ```
 
-```C#
-using Syncfusion.Maui.Core;
-. . .
-
+**C#**
+```
     using Syncfusion.Maui.Buttons;
     namespace CheckBoxGettingStarted
     {
@@ -183,8 +182,6 @@ public MainPage()
     }
         
 ```
-
-
 
 Run the application to render the following output:
 
